@@ -25,15 +25,8 @@ void VariableTypeNumber() {
 }
 
 void VariableTypeCharacter() {
-  // 문자형 데이터
-  // 문자 1개 : '', 문자 여러개 : ""
-  // char 타입은 문자 1개만 저장 가능
-  char Text1; // char : character
-  char Text2;
-
-  Text1 = 'A';
-  Text2 = 'B';
-
+	char Text1 = 'A';
+	char Text2 = 'B';
   cout << Text1 << endl << Text2 << endl;
 }
 

@@ -69,20 +69,14 @@ void Quadrant() {
   cin >> x;
   cout << "y값 입력 : ";
   cin >> y;
-
-  // x>0 && y>0 : 모두 양수
-  // x<0 && y>0 : x 음수, y 양수
-  // x<0 && y<0 : 모두 음수
-  // x>0 && y<0 : x 양수, y 음수
-
   if (x > 0 && y > 0) {
-    cout << "1사분면" << endl;
+    cout << "1" << endl;
   } else if (x < 0 && y > 0) {
-    cout << "2사분면" << endl;
+    cout << "2" << endl;
   } else if (x < 0 && y < 0) {
-    cout << "3사분면" << endl;
+    cout << "3" << endl;
   } else {
-    cout << "4사분면" << endl;
+    cout << "4" << endl;
   }
 }
 

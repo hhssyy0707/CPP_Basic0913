@@ -76,13 +76,22 @@ void InputBall() {
     int i_str, j_fns, k;
     cin >> n >> m;
     int *Basket = new int[m];
+    fill_n(Basket, m+1, 0);
+
+    cout << endl << endl;
+
     for (int i = 0; i < m; i++) {//입력m번 받기
         cin >> i_str >> j_fns >> k;
         for (i_str; i_str <= j_fns; i_str++) {
-            Basket[i_str] = k;
+            Basket[i_str-1] = k;
+            for (int i = 0; i < n; i++) {
+                cout << Basket[i] << " ";
+            }
+            cout << endl << endl;
         }
     }
-    for (int i = 0; i < sizeof(Basket); i++) {
-        cout << Basket[i_str];
-    }
+    /*
+    for (int i = 0; i < n; i++) {
+        cout << Basket[i_str]<<" ";
+    }*/
 }

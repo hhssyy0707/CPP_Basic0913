@@ -18,9 +18,9 @@ void OperationArithmetic(int Arith1, int Arith2) {
 }
 
 void OperationIncrementDecrement() {
-  // 증감 연산
-  int Increase = 0; // 초기화
-  int Decrease = 10;
+    //증감연산
+    int Increase = 0;
+    int Decrease = 10;
 
   Increase = Increase + 1; // 더해지는 값 : 증감값(Step)
   Decrease = Decrease - 2;
