@@ -137,6 +137,7 @@
     <ClCompile Include="CH05_array.cpp" />
     <ClCompile Include="CH06-1_example.cpp" />
     <ClCompile Include="CH06_string.cpp" />
+    <ClCompile Include="CH07_pointer.cpp" />
     <ClCompile Include="CH07_structure.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
