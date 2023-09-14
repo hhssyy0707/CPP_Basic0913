@@ -201,3 +201,55 @@ Function(10); <= 10 : argument
  - 객체/인스턴스(실체는 바로 객체와 인스턴스)
   - 클래스를 통해서 생성된 실체
 
+```
+struct Car{
+char
+char
+int year;
+}
+
+void Drave(char name[30]){}
+void Break(char name[30]){}
+void Parking(char name[30]){}
+void Rear(char name[30]){}
+
+Car BMW = {"X7","xDrive40i",2023,3,"Black"}
+Car Jeep = {"Rubicon","Moutain",2021,26,"Blue"}
+
+cout<< BMW.year<<endl;
+cout<< Jeep.year<<endl;
+
+Drive("X7");
+Drive("Rubicon");
+
+```
+
+
+### 클래스 선언
+
+```
+class car(){
+    char name[30];
+    char model[30];
+    int year;
+    int TireSize;
+    char Color[30];
+    
+    void Drave(char name[30]){}
+    void Break(char name[30]){}
+    void Parking(char name[30]){}
+    void Rear(char name[30]){}
+
+}
+
+Car Sonata;
+
+cout<< Sonata.year <<endl;
+Sonata.Drive();
+
+Car Ray;
+cout<<Ray.year<<endl;
+Ray.Drive();
+
+
+```
