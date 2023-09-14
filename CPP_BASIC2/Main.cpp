@@ -9,6 +9,8 @@ int main(){
 	//InputBall();
 	//ChangeBall();
 	//ArrayAdd();
-	MaxValue();
+	//MaxValue();
+	BlackPart();
+	//DynamicVariable();
 	cout << endl << "End of Code" << endl;
 }

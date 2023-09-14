@@ -54,6 +54,9 @@
     <ClCompile Include="CH07_pointer.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="CH08_dynamic.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Basic.md" />
