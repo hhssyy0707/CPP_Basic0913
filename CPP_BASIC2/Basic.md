@@ -228,14 +228,14 @@ Drive("Rubicon");
 ### 클래스 선언
 
 ```
-class car(){
-    char name[30];
-    char model[30];
-    int year;
+class Car{
+    char Name[30];
+    char Model[30];
+    int Year;
     int TireSize;
     char Color[30];
     
-    void Drave(char name[30]){}
+    void Drive(char name[30])();
     void Break(char name[30]){}
     void Parking(char name[30]){}
     void Rear(char name[30]){}
@@ -253,3 +253,11 @@ Ray.Drive();
 
 
 ```
+
+## 생성자(Constructor)와 소멸자(Distructor)
+ - 생성자
+ - 클래스 타입의 변수가 생성될 때 초기화하는 함수
+ - 초기화 기능/ 초기화가 진행될 때 연계해서 다른 기능 동작
+ 
+ - 소멸자
+ - 클래스 쓰임새가 다했거나 프로그램 종료 시 생성되었던 클래스를 해제하는 함수

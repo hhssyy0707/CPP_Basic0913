@@ -57,6 +57,9 @@
     <ClCompile Include="CH08_dynamic.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="CH10_class.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Basic.md" />
@@ -66,6 +69,9 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Main.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CH10_class.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

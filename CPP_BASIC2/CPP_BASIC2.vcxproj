@@ -140,12 +140,14 @@
     <ClCompile Include="CH07_pointer.cpp" />
     <ClCompile Include="CH07_structure.cpp" />
     <ClCompile Include="CH08_dynamic.cpp" />
+    <ClCompile Include="CH10_class.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Basic.md" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CH10_class.h" />
     <ClInclude Include="Io.h" />
     <ClInclude Include="Main.h" />
   </ItemGroup>
