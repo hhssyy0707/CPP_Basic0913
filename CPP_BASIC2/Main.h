@@ -50,3 +50,9 @@ void BlackPart();//백준 2563 색종이
 
 
 void DynamicVariable();
+
+void ArrayClass();
+
+
+void StringClass();
+void VectorClass();

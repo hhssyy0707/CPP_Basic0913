@@ -144,6 +144,9 @@
     <ClCompile Include="CH07_pointer.cpp" />
     <ClCompile Include="CH07_structure.cpp" />
     <ClCompile Include="CH08_dynamic.cpp" />
+    <ClCompile Include="CH11_ArrayClass.cpp" />
+    <ClCompile Include="CH12_StringClass.cpp" />
+    <ClCompile Include="CH13_Vector.cpp" />
     <ClCompile Include="Vehicle.cpp" />
     <ClCompile Include="CH10_class.cpp" />
     <ClCompile Include="Main.cpp" />

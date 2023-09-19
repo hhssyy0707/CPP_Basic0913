@@ -67,6 +67,7 @@ int main(){
 	//mobile().PrintPrice();
 
 
+	VectorClass();
 
 	cout << endl << "End of Code" << endl;
 }
