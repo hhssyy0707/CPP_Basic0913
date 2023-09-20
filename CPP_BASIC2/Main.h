@@ -56,3 +56,9 @@ void ArrayClass();
 
 void StringClass();
 void VectorClass();
+int SumNumber(int a, int b);
+float SumNumber(float a, float b);
+
+//template//
+template <typename T>
+T SumNumber(T a, T b);

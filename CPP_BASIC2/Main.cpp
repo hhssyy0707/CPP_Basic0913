@@ -6,6 +6,9 @@
 #include "Bike.h"
 #include "Atv.h"
 #include "Arithmatic.h"
+#include "CH14_VirtualParent.h"
+#include "CH14_VirtualChild.h"
+#include "CH15_PureVirtualChild.h"
 
 
 #define PLUS (2 + 3)
@@ -68,6 +71,51 @@ int main(){
 
 
 	VectorClass();
+
+	cout << "============================================" << endl;
+	//정적생성
+	VirtualParent Parent1;
+	VirtualChild Child1;
+
+	Parent1.PrintClass();
+	Child1.PrintClass();
+
+	cout << "============================================" << endl;
+	//동적생성
+	VirtualParent* Parent2 = new VirtualParent;
+	VirtualChild* Child2 = new VirtualChild;
+
+	Parent2->PrintClass();
+	Child2->PrintClass(); // overriding
+
+	Parent2 = Child2;
+	Parent2->PrintClass();
+
+	cout << "============================================" << endl;
+
+	//가상함수
+	VirtualParent2* Parent3 = new VirtualParent2;
+	VirtualChild2* Child3 = new VirtualChild2;
+
+	Parent3->PrintClass();
+	Child3->PrintClass(); // overriding
+
+	Parent3 = Child3;
+	Parent3->PrintClass();
+
+	cout << "============================================" << endl;
+	//순수가상함수
+	//PureVirtualParent PureParent; => 추상클래스는 단독으로 객체 생성 불가
+	//추상클래스를 상속받는 자식 클래스는 순수 가상함수를 재정의 해야함.
+	PureVirtualChild PureChild;
+	PureChild.Print();
+	PureChild.PrintClass();
+	cout << "============================================" << endl;
+
+	cout << SumNumber(3, 2) << endl;
+	cout << SumNumber(3.2f, 1.9f) << endl;
+
+	cout << "============================================" << endl;
 
 	cout << endl << "End of Code" << endl;
 }

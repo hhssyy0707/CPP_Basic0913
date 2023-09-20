@@ -147,6 +147,10 @@
     <ClCompile Include="CH11_ArrayClass.cpp" />
     <ClCompile Include="CH12_StringClass.cpp" />
     <ClCompile Include="CH13_Vector.cpp" />
+    <ClCompile Include="CH14_VirtualChild.cpp" />
+    <ClCompile Include="CH14_VirtualParent.cpp" />
+    <ClCompile Include="CH15_PureVirtualChild.cpp" />
+    <ClCompile Include="CH16_Template.cpp" />
     <ClCompile Include="Vehicle.cpp" />
     <ClCompile Include="CH10_class.cpp" />
     <ClCompile Include="Main.cpp" />
@@ -160,6 +164,10 @@
     <ClInclude Include="Atv.h" />
     <ClInclude Include="Bike.h" />
     <ClInclude Include="CH10_class.h" />
+    <ClInclude Include="CH14_VirtualChild.h" />
+    <ClInclude Include="CH14_VirtualParent.h" />
+    <ClInclude Include="CH15_PureVirtualChild.h" />
+    <ClInclude Include="CH15_PureVirtualParent.h" />
     <ClInclude Include="Io.h" />
     <ClInclude Include="Main.h" />
     <ClInclude Include="Vehicle.h" />

@@ -11,7 +11,7 @@ public:
     void PrintFinger();
     void PrintLeg();
 
-    ~Animal() {
+    Animal(int _Finger , int _Leg) {
         cout << "Animal Distructor 동물 확인" << endl;
     }
 };

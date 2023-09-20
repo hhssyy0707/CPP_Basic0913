@@ -84,6 +84,18 @@
     <ClCompile Include="CH13_Vector.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="CH14_VirtualParent.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CH14_VirtualChild.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CH15_PureVirtualChild.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CH16_Template.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Basic.md" />
@@ -111,6 +123,18 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Arithmatic.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CH14_VirtualChild.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CH14_VirtualParent.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CH15_PureVirtualParent.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CH15_PureVirtualChild.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
